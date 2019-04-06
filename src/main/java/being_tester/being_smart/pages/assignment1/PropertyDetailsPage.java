@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import being_tester.being_smart.pages.BasePage;
 
 public class PropertyDetailsPage extends BasePage {
-	private static final Logger logger = LogManager.getLogger(PropertyForSalePage.class);
+	private static final Logger logger = LogManager.getLogger(PropertyDetailsPage.class);
 	@FindBy(xpath = "//span[text()='Property details']")
 	private WebElement pageElement;
 	@FindBy(css = "div[class='dp-sidebar-wrapper__contact'] img")
